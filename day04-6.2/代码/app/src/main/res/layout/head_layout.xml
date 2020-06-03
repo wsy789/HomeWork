@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:background="@color/blue"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<ImageView
+    android:id="@+id/head_img"
+    android:src="@mipmap/icon_user"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    android:layout_marginLeft="20dp"
+    android:layout_width="70dp"
+    android:layout_height="70dp"/>
+<TextView
+    android:id="@+id/head_name"
+    android:text="游客wsy"
+    app:layout_constraintLeft_toRightOf="@+id/head_img"
+    app:layout_constraintTop_toTopOf="@+id/head_img"
+    android:layout_marginLeft="15dp"
+    android:textSize="30sp"
+    android:textColor="@color/white"
+    android:gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="70dp"/>
+    <TextView
+        android:id="@+id/head_id"
+        android:text="ID："
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/head_img"
+        android:layout_marginLeft="15dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"/>
+    <TextView
+        android:id="@+id/head_idcontent"
+        android:text="wsy"
+        app:layout_constraintLeft_toRightOf="@+id/head_id"
+        app:layout_constraintTop_toBottomOf="@+id/head_img"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
