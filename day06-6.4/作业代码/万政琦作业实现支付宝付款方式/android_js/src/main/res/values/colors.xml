@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="c_eaeaea">#eaeaea</color>
+    <color name="back">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="subtitle">#CC797575</color>
+    <color name="shallow_subtitle">#CCC7C6C6</color>
+    <color name="price_info">#F44336</color>
+    <color name="gools_tab">#80FFC107</color>
+    <color name="colorMainGreen">#40cab3</color>
+</resources>
