@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_my_github"
+        android:icon="@mipmap/my_github"
+        android:title="Github"
+        android:checkable="true"
+        />
+    <item
+        android:id="@+id/item_my_csdn"
+        android:icon="@mipmap/my_csdn"
+        android:title="CSDN"
+        android:checkable="true"/>
+    <item
+        android:id="@+id/item_my_jianshu"
+        android:icon="@mipmap/my_jianshu"
+        android:title="简书"
+        android:checkable="true"/>
+    <item
+
+        android:id="@+id/item_icon_user"
+        android:icon="@mipmap/icon_user"
+        android:title="github.io"
+        android:checkable="true" />
+  <group android:id="@+id/group2">
+      <item
+          android:id="@+id/item_icon_setting"
+          android:icon="@mipmap/icon_setting"
+          android:title="设置"
+          android:checkable="true"
+          />
+      <item
+          android:id="@+id/item_icon_about"
+          android:icon="@mipmap/icon_about"
+          android:title="关于"
+          android:checkable="true" />
+      <item
+          android:id="@+id/item_cache"
+          android:icon="@mipmap/icon_setting"
+          android:title="清除缓存"
+          android:checkable="true"/>
+  </group>
+
+</menu>
